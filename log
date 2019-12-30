@@ -1,0 +1,71 @@
+Dec 25 10:08:12 spamdb sendmail[58947]: xBP28CtE058947: from=<wuruiluofei@gmail.com>, size=7167, class=0, nrcpts=1, msgid=<201912250208.xBP28CtE058947@spamdb.tianma.cn>, relay=root@localhost
+Dec 25 10:08:52 spamdb sendmail[58947]: xBP28CtE058947: entering maillog
+Dec 25 10:08:53 spamdb sendmail[58947]: xBP28CtE058947: leaving maillog
+Dec 25 10:08:56 spamdb sendmail[58947]: xBP28CtE058947: to=<xuedong_cai@tianma.cn>, ctladdr=<wuruiluofei@gmail.com> (0/65534), delay=00:00:44, xdelay=00:00:44, mailer=esmtp, pri=37167, relay=[172.18.1.6] [172.18.1.6], dsn=2.0.0, stat=Sent (<201912250208.xBP28CtE058947@spamdb.tianma.cn> [InternalId=4212428] Queued mail for delivery)
+
+
+
+Received: (from root@localhost)
+	by spamdb.tianma.cn id xBP28CtE058947
+	for <xuedong_cai@tianma.cn>; Wed, 25 Dec 2019 10:08:12 +0800 (GMT-8)
+	(envelope-from wuruiluofei@gmail.com)
+Message-Id: <201912250208.xBP28CtE058947@spamdb.tianma.cn>
+Received: from mail-io1-f65.google.com (mail-io1-f65.google.com [209.85.166.65])
+	by spamdb.tianma.cn with ESMTP id xBP0GDqI051613;
+	Wed, 25 Dec 2019 08:16:13 +0800 (GMT-8)
+	(envelope-from wuruiluofei@gmail.com)
+Received: by mail-io1-f65.google.com with SMTP id v18so20310106iol.2;
+        Tue, 24 Dec 2019 16:16:14 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to:cc;
+        bh=4w+hj7ZFHZAITjsf9vcrWN1KN6peMGsGhB8vhTUiAds=;
+        b=GGYDM0pjMr6CuiZUG5EtuWrO3zZVu6AT+uFrW+7uwSx/L4jH2XywDAqCfGEaAh7ezZ
+         SNfPAJag/rUxzxdwScGAY0yLyCEOfA0EFv9DUU/JWVmGMg6B2RtnUKBDa9mIZ9/Z6Fam
+         PnfbfSqfn2qySVVozDwsfKWk5493XkhfmhCsOap2kA+4ubSpifLTdF+EVzN5e0WKlsP8
+         /eVXFO9VMqInQO8ilOgomHHqrXuHJ+HQMncx4MbFIIC/QoMCOrKZKw4spwIHz8wGfMIg
+         wrLFHAGRccz/FT4PQohMsruRecjkHBgeNTbL67SeG6m7kAZjFqz2FdnCAMLN8JY2ZGld
+         alcw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+        bh=4w+hj7ZFHZAITjsf9vcrWN1KN6peMGsGhB8vhTUiAds=;
+        b=RaWl3hoqQTCpWBYcujodeuIk4Cesdic35vCtcVFtXJOYbKosVWsl11cRI9d/k6a091
+         FJCk3WY8A7leT6oiZum5YZQwp2jNNPAGRROUrY7q2Q1DdLHne7XG+6ot7bnms1id+pAx
+         D7snsXkrYoS6A6ExRuxJZjTqzoAxpiUa5vRcEc8vwiOPtrojTKqZ++35Gdk05xZIZGU8
+         kURDieCMWVFcfFDgjSyzzLeo7Lp3/xwuDUC7z/Isw14vJCax/+jbsb1fxRNCOgdoMlbJ
+         2ZOOsvuf5rA4RkOQxoDnQkC1ZhzrcoPPXz4vTKBt1MJksXQVPdVjlJEDOw23bRAzJja/
+         EaNg==
+X-Gm-Message-State: APjAAAULxRlUiA2p+aA3xKLv6A16ScpJd8F8E7N0vhE74kpSm74nQhgX
+	C+CId2HibYAkffI4l/CLWnqYh+7PZL5Epey+IDa/xA==
+X-Google-Smtp-Source: APXvYqxIEc0q9gHgzI6AtBV9WqE0l9qRWd96XtO5eUmrM80rT5R7QAuXGSunH/D6b6aZTV2m0Lh8I+3zFsjvuKgOwdM=
+X-Received: by 2002:a6b:4e08:: with SMTP id c8mr24343994iob.64.1577232971459;
+ Tue, 24 Dec 2019 16:16:11 -0800 (PST)
+MIME-Version: 1.0
+From: ruiluofei wu <wuruiluofei@gmail.com>
+Date: Wed, 25 Dec 2019 08:16:00 +0800
+Subject: =?UTF-8?B?44CQ5Li+5oql44CR5YWz5LqOSVTpooblr7zkvI3plJDlj4rlhbbku6PnkIbllYbmt7E=?=
+	=?UTF-8?B?5Zyz5biC5YeM5qC85Y2a6YCa56eR5oqA5pyJ6ZmQ5YWs5Y+455qE6Zeu6aKY?=
+To: "xiongmeng_guo@tianma.cn" <xiongmeng_guo@tianma.cn>
+Cc: "chun_shao@tianma.cn" <chun_shao@tianma.cn>,
+        "chunye_ni@tianma.cn" <chunye_ni@tianma.cn>,
+        "guoqian_chen@tianma.cn" <guoqian_chen@tianma.cn>,
+        "huan_tao@tianma.cn" <huan_tao@tianma.cn>,
+        "hui_wang@tianma.cn" <hui_wang@tianma.cn>,
+        "jiachi_yang@tianma.cn" <jiachi_yang@tianma.cn>,
+        "jie_lu@tianma.cn" <jie_lu@tianma.cn>,
+        "jinsheng_lin@tianma.cn" <jinsheng_lin@tianma.cn>,
+        "laigen_xu@tianma.cn" <laigen_xu@tianma.cn>,
+        "qunqun_he@tianma.cn" <qunqun_he@tianma.cn>,
+        "tao_ji@tianma.cn" <tao_ji@tianma.cn>,
+        "xuedong_cai@tianma.cn" <xuedong_cai@tianma.cn>,
+
+ 
+  "yichen_wang@tianma.cn" <yichen_wang@tianma.cn>,
+        "yong_yang@tianma.cn" <yong_yang@tianma.cn>,
+        "yuan_lin@tianma.cn" <yuan_lin@tianma.cn>,
+        "zitian_zhang@tianma.cn" <zitian_zhang@tianma.cn>
+Content-Type: multipart/alternative; boundary="000000000000fdf0b8059a7c2a0f"
+X-DNSRBL: 
+X-MAIL: spamdb.tianma.cn xBP28CtE058947
+X-MSS: SPAMRELEASE@spamdb.tianma.cn
